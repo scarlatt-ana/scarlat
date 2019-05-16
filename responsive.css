@@ -1,0 +1,25 @@
+@media (max-width: 850px){
+    
+    div.conteudo{
+        flex-direction: column;
+    }
+
+    .conteudo div{
+        width: 60%;
+    }
+}
+
+
+
+@media (max-width: 768px){
+
+    #hamburguer{
+        display: flex;
+        margin-right: 15px;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+}
